@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import CampoTexto from './CampoTexto'
 import Livro from './Livro'
-import './style_comp/FormularioLivro.css'
+import './FormularioLivro.css'
 
 function FormularioLivro() {
   const [titulo, setTitulo] = useState('');

@@ -1,4 +1,4 @@
-import './style_comp/CampoTexto.css'
+import './CampoTexto.css'
 
 function CampoTexto({ label, name, ...inputProps }) {
   return (
