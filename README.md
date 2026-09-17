@@ -12,7 +12,7 @@ A aplicação após recebe dados.
 
 <img width="1919" height="1040" alt="Captura de tela 2026-09-17 160432" src="https://github.com/user-attachments/assets/a0cd91b5-a0de-41de-9cf3-1b4bb4c59d30" />
 
-## Dados inseredidos por [Baoba(Pedro Lucas)](https://github.com/pedrolucas1011).
+## - Dados inseridos por [Baoba(Pedro Lucas)](https://github.com/pedrolucas1011).
 
 # Como Executa
 
