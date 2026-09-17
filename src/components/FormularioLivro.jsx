@@ -24,7 +24,7 @@ function FormularioLivro() {
   }
 
   return (
-    <section className="formulario-aluno">
+    <section className="formulario-livro">
       <h1>Cadastro de Livro</h1>
 
       <form onSubmit={handleSubmit}>
@@ -64,14 +64,14 @@ function FormularioLivro() {
         <button type="submit">Cadastrar</button>
       </form>
 
-      <div className="formulario-aluno-lista">
+      <div className="formulario-livro-lista">
         <h2>Livros cadastrados</h2>
 
         {livros.length === 0 && <p>Nenhum livro cadastrado ainda.</p>}
 
         <ul>
           {livros.map((livro) => (
-            <Aluno key={livro.titulo} livro={livro} />
+            <Livro key={livro.titulo} livro={livro} />
           ))}
         </ul>
       </div>
