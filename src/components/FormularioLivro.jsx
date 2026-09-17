@@ -28,38 +28,40 @@ function FormularioLivro() {
       <h1>Cadastro de Livro</h1>
 
       <form onSubmit={handleSubmit}>
-        <CampoTexto
-          label="Título"
-          name="titulo"
-          value={titulo}
-          onChange={(evento) => setTitulo(evento.target.value)}
-          placeholder="Ex: O Senhor dos Anéis"
-        />
+        <div className='setup'>
+          <CampoTexto
+            label="Título"
+            name="titulo"
+            value={titulo}
+            onChange={(evento) => setTitulo(evento.target.value)}
+            placeholder="Ex: O Senhor dos Anéis"
+          />
 
-        <CampoTexto
-          label="Autor"
-          name="autor"
-          type="autor"
-          value={autor}
-          onChange={(evento) => setAutor(evento.target.value)}
-          placeholder="Ex: J.R.R. Tolkien"
-        />
+          <CampoTexto
+            label="Autor"
+            name="autor"
+            type="autor"
+            value={autor}
+            onChange={(evento) => setAutor(evento.target.value)}
+            placeholder="Ex: J.R.R. Tolkien"
+          />
 
-        <CampoTexto
-          label="Ano de Publicação"
-          name="anoPublic"
-          value={anoPublic}
-          onChange={(evento) => setAnoPublic(evento.target.value)}
-          placeholder="Ex: 1954"
-        />
+          <CampoTexto
+            label="Ano de Publicação"
+            name="anoPublic"
+            value={anoPublic}
+            onChange={(evento) => setAnoPublic(evento.target.value)}
+            placeholder="Ex: 1954"
+          />
 
-        <CampoTexto
-          label="Gênero"
-          name="genero"
-          value={genero}
-          onChange={(evento) => setGenero(evento.target.value)}
-          placeholder="Ex: Fantasia"
-        />
+          <CampoTexto
+            label="Gênero"
+            name="genero"
+            value={genero}
+            onChange={(evento) => setGenero(evento.target.value)}
+            placeholder="Ex: Fantasia"
+          />
+        </div>
 
         <button type="submit">Cadastrar</button>
       </form>

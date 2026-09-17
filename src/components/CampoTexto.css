@@ -1,0 +1,25 @@
+.campo-texto {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+}
+
+.campo-texto label {
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(168, 12, 12);
+}
+
+.campo-texto input {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid black;
+  background: black;
+  color: white;
+}
+
+.campo-texto input:focus-visible {
+  outline: 2px solid rgb(145, 68, 145);
+  outline-offset: 1px;
+}
