@@ -4,7 +4,13 @@ Criar uma aplicação web utilizando React, com o objetivo de implementar formul
 
 # Imagens
 
+A aplicação sem recebe dados.
+
 <img width="1919" height="1042" alt="Captura de tela 2026-09-17 155614" src="https://github.com/user-attachments/assets/c91a9466-82fe-41be-926d-81f34f6c6cde" />
+
+A aplicação após recebe dados.
+
+<img width="1919" height="1040" alt="Captura de tela 2026-09-17 160432" src="https://github.com/user-attachments/assets/a0cd91b5-a0de-41de-9cf3-1b4bb4c59d30" />
 
 # Como Executa
 
